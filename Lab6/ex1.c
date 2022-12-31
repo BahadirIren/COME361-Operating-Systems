@@ -15,8 +15,13 @@ int main(){
 	printf("%d\n" , x^x);
 
 	unsigned int z = 2; // in binary 10
-	printf("%d\n", z<<1 ); // in binary 100, in decimal 4, 1 basamak sola kaydirmak sayiyi 2 ile carpmak anlamina geliyor
-	printf("%d\n", z>>1); // in binary 01, in decimal 1, 1 basamak saga kaydarmak sayiyi 2 ye bolmek anlamana geliyor
+
+	// shifting 1 digit to the left means multiplying the number by 2.
+	printf("%d\n", z<<1 ); // in binary 100, in decimal 4, 
+	
+	// Shifting 1 digit to the right means dividing the number by 2.
+	printf("%d\n", z>>1); // in binary 01, in decimal 1, 
+	
 
 	int num = 212;
 	printf("%d\n", num<<2);
